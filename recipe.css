@@ -1,7 +1,7 @@
-body {background-image: url(Images/Purple.jpg); background-size: cover; margin: 30px; text-align: center;}
+body {background-image: url(/Images/Purple.jpg); background-size: cover; margin: 30px; text-align: center;}
 #Smoothie {border-radius: 60%; width: 280px; border: outset 30px rgb(255, 0, 255);}
 .prep {border:  rgb(255, 0, 255) 5px solid ; background-color: #c09a9a96; height: 300px; margin-top: 20px;}
-.intro {color: rgba(102, 15, 102, 0.918); }
+.intro {color: rgb(102, 15, 102); }
 .Ingredients {font-size: 20px; font-weight: bold;}
 
 .step-1 {border-radius: 50%; border:  rgb(255, 0, 255) 5px solid ; background-color: rgba(192, 154, 154, 0.589); color: white; font-size: 30px; padding: 20px 20px; font-weight: bold;}
