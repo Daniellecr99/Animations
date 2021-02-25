@@ -1,0 +1,41 @@
+body {background-color: aqua;}
+
+.hover, .rotate, .translatex, .translateY, .threeD, .skew, .scale {
+
+    width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 50px auto;
+    background-color: violet;
+    border-radius: 50px;
+    cursor: pointer; 
+    color: white;
+    transition-property: color, background-color, transform;
+    transition-duration: 2s;    
+    /* max 8 */
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+    
+} 
+
+.hover:hover {color:blueviolet; background-color: darkmagenta;}
+
+.rotate:hover {color: chocolate; background-color: darkblue;
+ transform: rotate(360deg);}
+
+ /* mesured in degrees */
+.skew:hover { color: chocolate; background-color: darkblue; transform: skew(10deg);
+
+}
+/* measured in pixels */
+.translatex:hover {
+color: darksalmon; background-color: deeppink; transform: translateX(30px); 
+}
+
+.translateY:hover {
+    color: darksalmon; background-color: deeppink; transform: translateY(30px); 
+}
+/* Measured in intergers */
+.scale:hover {color: darksalmon; background-color: rgb(20, 114, 255);  transform: scale(2, 3);}
+/* Measured in intergers (x, y, z) and degs (Best to keep 1,1, 1, empahsis is on degs) */
+.threeD:hover {color: firebrick; background-color: fuchsia; transform:rotate3d(1, 1, 1, 360deg)}

@@ -1,0 +1,40 @@
+* {text-align: center;}
+body {background-image: url(/Images/Warmblurred.jpg); background-size: cover;}
+
+
+p:hover{   
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+    transform: scale(1.2,1.2);
+font-weight: bold;}
+
+.img1:hover {   
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 0s;
+   transform:rotate(360deg);}
+
+   .img2:hover {   
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 0s;
+   transform:rotate(-360deg);}
+
+   .img3:hover {   
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 0s;
+   transform:rotate(360deg);}
+
+   a:hover { width: 100px;
+    line-height: 0;
+    padding: 50px 0;
+    margin: 50px auto;
+    border-radius: 50%;
+    transition-property: color, background-color, transform;
+    transition-delay: 0s;
+    transition-timing-function: ease-in-out;
+       background-color: rgb(212, 107, 107);
+transform: translateY(30px);}

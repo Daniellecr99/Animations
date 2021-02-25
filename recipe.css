@@ -1,0 +1,13 @@
+body {background-image: url(/Images/Purple.jpg); background-size: cover; margin: 30px; text-align: center;}
+#Smoothie {border-radius: 60%; width: 280px; border: outset 30px rgb(255, 0, 255);}
+.prep {border:  rgb(255, 0, 255) 5px solid ; background-color: rgba(192, 154, 154, 0.589); height: 300px; margin-top: 20px;}
+.intro {color: thistle; }
+.Ingredients {font-size: 20px; font-weight: bold;}
+
+.step-1 {border-radius: 50%; border:  rgb(255, 0, 255) 5px solid ; background-color: rgba(192, 154, 154, 0.589); color: white; font-size: 30px; padding: 20px 20px; font-weight: bold;}
+.step-2 {border-radius: 50%; border:  rgb(255, 0, 255) 5px solid ; background-color: rgba(192, 154, 154, 0.589); color: white; font-size: 30px; padding: 20px 20px; font-weight: bold;}
+.step-3 {border-radius: 50%; border:  rgb(255, 0, 255) 5px solid ; background-color: rgba(192, 154, 154, 0.589); color: white; font-size: 30px; padding: 20px 20px; font-weight: bold;}
+
+.directions {border: white solid 1px; margin: 5px; background-color: rgba(255, 255, 255, 0.479); border-radius: 20px; font-weight: bold;}
+
+.top {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; color: rgb(6, 7, 77);}
