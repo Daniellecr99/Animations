@@ -1,0 +1,7 @@
+body {text-align: center; }
+
+.section2 ul li {color: hotpink; font-size: 30px; transition-property: color, transform;
+transition-duration: 4s;}
+
+
+.section2 ul li:hover {color:black; transform: translateX(30px);}

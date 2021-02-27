@@ -11,3 +11,43 @@ body {background-image: url(Purple.jpg); background-size: cover; margin: 30px; t
 .directions {border: white solid 1px; margin: 5px; background-color: rgba(255, 255, 255, 0.479); border-radius: 20px; font-weight: bold;}
 
 .top {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-weight: bold; color: rgb(6, 7, 77);}
+
+h1.intro {transition-delay: 0s;
+    transition-timing-function:linear;
+    animation-name: ingredients;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;}
+    @keyframes ingredients {
+        0%   {transform:translateX(0px);}
+        25%  {transform:translateX(5px);}
+        50%  {transform:translateX(10px);}
+        75%  {transform:translateX(5px);}
+        100% {transform:translateX(0px);}
+    
+    }
+
+    .Ingredients:hover {transform: scale(1.3,1.3); transition-property: color, background-color, transform;
+        transition-duration: 2s;}
+    .directions:hover {transform:skewx(-10deg); transition-property: color, background-color, transform;
+        transition-duration: 2s;}     
+    #Smoothie:hover {transform: rotate(360deg);  transition-property: color, background-color, transform;
+        transition-duration: 2s;}
+
+        .step-1:hover, .step-2:hover, .step-3:hover {transform: rotate3d(1,1,1, 360deg); transition-property: color, background-color, transform;
+            transition-duration: 2s;   }
+
+            .top {transition-delay: 1s;
+               
+                animation-name: top;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;}
+                @keyframes top {
+                    0%   {color: rgb(108, 16, 136);}
+                    25%  {color: rgb(212, 31, 91);}
+                    50%  {color: rgb(107, 19, 52);}
+                    75%  {color: rgb(71, 29, 168);}
+                    100% {color: rgb(36, 6, 230);}}
+
+                    
+
+                

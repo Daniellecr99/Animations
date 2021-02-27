@@ -1,0 +1,29 @@
+.blue {background-color: turquoise;  height: 225px; width:100%;}
+.green {background-color: green; height: 225px;} 
+.grey {background-color: rgb(131, 128, 128); height: 225px;}
+.bike {  position: absolute; 
+    left: 100px;}
+
+ 
+	}
+    .bike {
+         
+        }
+   .bike {
+        transition-delay: 0s;
+        transition-timing-function: ease-in-out;
+        width: 100px;
+        height: 100px;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+      }
+    @keyframes example {
+        from {
+          transform: translateX(-200px);
+        }
+      
+        to {
+          transform: translateX(1400px);
+        }
+      }
