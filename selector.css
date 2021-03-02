@@ -1,7 +1,22 @@
 body {text-align: center; }
 
-.section2 ul li {color: hotpink; font-size: 30px; transition-property: color, transform;
-transition-duration: 4s;}
-
+.section2 ul li {color: #ce1c1c; font-size: 30px; transition-property: color, transform;
+transition-duration: 4s; list-style-type: none;}
 
 .section2 ul li:hover {color:black; transform: translateX(30px);}
+.Spanish {color: rgb(79, 134, 206) !important;}
+
+.section2 p {font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(204, 49, 57); border: rgb(105, 13, 13) 5px outset; width: 300px; margin: 0 auto;}
+.section3 p {font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(18, 104, 138); border: blueviolet 5px groove; width: 300px; margin: 0 auto;}
+
+.section3 li {list-style-type: none; overflow: auto; max-width: 500px; margin:0 auto; transition-delay: 1s;
+               
+    animation-name: list;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;}
+    @keyframes list {
+        0%   {color: rgb(16, 28, 136); transform: scale(1,1);}
+        25%  {color: rgb(31, 130, 212); transform: scale(1.2,1.2);}
+        50%  {color: rgb(19, 107, 59); transform: scale(1,1);}
+        75%  {color: rgb(39, 214, 112); transform: scale(1.2,1.2);}
+        100% {color: rgb(185, 6, 230); transform: scale(1,1);}}
